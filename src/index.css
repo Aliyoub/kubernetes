@@ -126,6 +126,13 @@ header .logo span.title {
 
 
 
+.main-sub-title {
+  color: #CC0000;
+  /* color: #2297EC; */
+  font-size: 1.1rem;
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+}
 .sub-title {
   color: #2297EC;
   font-size: 1.1rem;
