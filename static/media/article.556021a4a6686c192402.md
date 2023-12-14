@@ -1,6 +1,8 @@
 <br /><br />
-### KUBERNETES QUELQUES CAS D'USAGE
-<p class="introduction"> lorem Veniam ipsum do deserunt exercitation irure ea aute aliqua reprehenderit sit id laborum quis deserunt.lorem Veniam ipsum do deserunt exercitation irure ea aute aliqua reprehenderit sit id laborum quis deserunt.lorem Veniam ipsum do deserunt exercitation irure ea aute aliqua reprehenderit sit id laborum quis deserunt.lorem Veniam ipsum do deserunt exercitation irure ea aute aliqua reprehenderit sit id laborum quis deserunt.lorem Veniam ipsum do deserunt exercitation irure ea aute aliqua reprehenderit sit id laborum quis deserunt.lorem Veniam ipsum do deserunt exercitation irure ea aute aliqua reprehenderit sit id laborum quis deserunt.lorem Veniam ipsum do deserunt exercitation irure ea aute aliqua reprehenderit sit id laborum quis deserunt.lorem Veniam ipsum do deserunt exercitation irure ea aute aliqua reprehenderit sit id laborum quis deserunt.lorem Veniam ipsum do deserunt exercitation irure ea aute aliqua reprehenderit sit id laborum quis deserunt.</p>
+### Taint et Toleration
+<p class="introduction"> Les Taints sont utilisés pour isoler les pods de certains noeuds.
+En effet, si Taint est appliqué à un noeud quelconque, aucun pod ne pourra être planifié dans noeud.
+Cependant, si Taint est appliqué à un noeud, on pourra aussi lui appliquer Toleration afin qu’on puisse planifier certains pods en son sein.</p>
 
 
 <span class="sub-title">Utilité de Taint et Toleration</span>
