@@ -1,6 +1,6 @@
 <br /><br />
 <span class="sub-title">Taint et Toleration</span>
-<p class="introductio"> Les Taints sont utilisés pour isoler les pods de certains noeuds.
+<p class="introduction"> Les Taints sont utilisés pour isoler les pods de certains noeuds.
 En effet, si Taint est appliqué à un noeud quelconque, aucun pod ne pourra être planifié dans ce noeud.
 Cependant, si Taint est appliqué à un noeud, on pourra appliquer Toleration à certains pods afin qu’ils puissent être planifiés dans ce noeud.</p>
 
