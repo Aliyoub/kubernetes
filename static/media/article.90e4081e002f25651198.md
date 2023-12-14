@@ -5,9 +5,9 @@ En effet, si Taint est appliqué à un noeud quelconque, aucun pod ne pourra êt
 Cependant, si Taint est appliqué à un noeud, on pourra appliquer Toleration à certains pods afin qu’ils puissent être planifiés dans ce noeud.</p>
 
 
-<span class="sub-title">Utilité de Taint et Toleration</span>
+<span class="sub-title">Appliquer Taint au noeud minikube</span>
 <Code language="bash">
-sudo vagrant up
+kubectl taint nodes minikube key=value:NoSchedule
 </Code>
 <img src="/kubernetes/images/taints-tolerations_1.png" style="width:100%; "/>
 
