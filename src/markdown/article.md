@@ -1,15 +1,15 @@
 <br /><br />
 <span class="sub-title">Taint et Toleration</span>
 <p class="introductio"> Les Taints sont utilisés pour isoler les pods de certains noeuds.
-En effet, si Taint est appliqué à un noeud quelconque, aucun pod ne pourra être planifié dans noeud.
-Cependant, si Taint est appliqué à un noeud, on pourra aussi lui appliquer Toleration afin qu’on puisse planifier certains pods en son sein.</p>
+En effet, si Taint est appliqué à un noeud quelconque, aucun pod ne pourra être planifié dans ce noeud.
+Cependant, si Taint est appliqué à un noeud, on pourra appliquer Toleration à certains pods afin qu’ils puissent être planifiés dans ce noeud.</p>
 
 
 <span class="sub-title">Utilité de Taint et Toleration</span>
 <Code language="bash">
 sudo vagrant up
 </Code>
-<img src="/docker/images/vagrant-up.png" style="width:100%; "/>
+<img src="/kubernetes/images/taints-tolerations_1.pngg" style="width:100%; "/>
 
 
 <span class="sub-title">Accès à la machine virtuelle par ssh</span>
