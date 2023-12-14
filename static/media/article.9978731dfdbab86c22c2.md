@@ -12,20 +12,20 @@ kubectl taint nodes minikube key=value:NoSchedule
 <img src="/kubernetes/images/taints-tolerations_1.png" style="width:100%; "/>
 
 
-<span class="sub-title">Accès à la machine virtuelle par ssh</span>
+<span class="sub-title">Ensuite, planifions un pod et voyons s’il a été  mis en place dans le noeud minikube</span>
 <Code language="bash">
-sudo vagrant ssh docker
+kubectl run aliyou-test-taint-pod --image=nginx
 </Code>
-<img src="/docker/images/vagrant-ssh-docker.png" style="width:100%; "/>
+<img src="/kubernetes/images/taints-tolerations_2.png" style="width:100%; "/>
 
 
 
 
-<span class="sub-title">Suppression d’éventuelle installation Docker pour avoir un environnement sain lors de la nouvelle installation</span>
+<span class="sub-title">Application de Toleration 3 replicas de pods</span>
 <Code language="bash">
-sudo apt remove docker docker-engine docker.io containerd runc
+kubectl apply -f toleration.yaml
 </Code>
-<img src="/docker/images/remove-docker.png" style="width:100%; "/>
+<img src="/kubernetes/images/taints-tolerations_3.png" style="width:100%; "/>
 
 
 <span class="sub-title">Installation du dépôt Docker</span>
