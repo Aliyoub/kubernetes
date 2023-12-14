@@ -21,7 +21,7 @@ kubectl run aliyou-test-taint-pod --image=nginx
 
 
 
-<span class="sub-title">Application de Toleration 3 replicas de pods</span>
+<span class="sub-title">Application de Toleration sur 3 replicas de pods</span>
 <Code language="bash">
 kubectl apply -f toleration.yaml
 </Code>
