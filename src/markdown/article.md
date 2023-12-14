@@ -9,7 +9,7 @@ Cependant, si Taint est appliqué à un noeud, on pourra appliquer Toleration à
 <Code language="bash">
 sudo vagrant up
 </Code>
-<img src="/kubernetes/images/taints-tolerations_1.pngg" style="width:100%; "/>
+<img src="/kubernetes/images/taints-tolerations_1.png" style="width:100%; "/>
 
 
 <span class="sub-title">Accès à la machine virtuelle par ssh</span>
