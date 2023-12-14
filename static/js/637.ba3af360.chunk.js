@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkkubernetes=self.webpackChunkkubernetes||[]).push([[637],{7637:(e,s,c)=>{e.exports=c.p+"static/media/article.b90a3901174c9bbcc74a.md"}}]);

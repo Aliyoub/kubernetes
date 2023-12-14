@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kubernetes/static/css/main.967eefd6.css",
+    "main.js": "/kubernetes/static/js/main.d7bcdb6b.js",
+    "static/js/637.ba3af360.chunk.js": "/kubernetes/static/js/637.ba3af360.chunk.js",
+    "static/media/article.md": "/kubernetes/static/media/article.b90a3901174c9bbcc74a.md",
+    "index.html": "/kubernetes/index.html",
+    "main.967eefd6.css.map": "/kubernetes/static/css/main.967eefd6.css.map",
+    "main.d7bcdb6b.js.map": "/kubernetes/static/js/main.d7bcdb6b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.967eefd6.css",
+    "static/js/main.d7bcdb6b.js"
+  ]
+}
