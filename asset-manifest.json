@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/kubernetes/static/css/main.967eefd6.css",
-    "main.js": "/kubernetes/static/js/main.45c6f3bc.js",
-    "static/js/637.3662f60f.chunk.js": "/kubernetes/static/js/637.3662f60f.chunk.js",
-    "static/media/article.md": "/kubernetes/static/media/article.5a91c5694edb94a8f72b.md",
+    "main.js": "/kubernetes/static/js/main.e5160d9b.js",
+    "static/js/637.1d8b38c2.chunk.js": "/kubernetes/static/js/637.1d8b38c2.chunk.js",
+    "static/media/article.md": "/kubernetes/static/media/article.0381f3f0c2d5ede82026.md",
     "index.html": "/kubernetes/index.html",
     "main.967eefd6.css.map": "/kubernetes/static/css/main.967eefd6.css.map",
-    "main.45c6f3bc.js.map": "/kubernetes/static/js/main.45c6f3bc.js.map"
+    "main.e5160d9b.js.map": "/kubernetes/static/js/main.e5160d9b.js.map"
   },
   "entrypoints": [
     "static/css/main.967eefd6.css",
-    "static/js/main.45c6f3bc.js"
+    "static/js/main.e5160d9b.js"
   ]
 }
