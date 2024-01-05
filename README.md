@@ -7,3 +7,5 @@ Les Taints sont utilisés pour isoler les pods de certains noeuds. En effet, si 
 
 Appliquons Taint au noeud minikube
 kubectl taint nodes minikube key=value:NoSchedule
+
+![alt text](https://aliyoub.github.io/kubernetes/images/taints-tolerations_1.png)
