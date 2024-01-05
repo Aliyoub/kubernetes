@@ -11,15 +11,16 @@ _kubectl taint nodes minikube key=value:NoSchedule_  <br />
 
 ### Ensuite, planifions un pod et voyons s’il a été mis en place dans le noeud minikube <br />
 > _kubectl run aliyou-test-taint-pod --image=nginx_
+
 ![alt taint](https://aliyoub.github.io/kubernetes/images/taints-tolerations_2.png)
 
 
-**Application de Toleration sur 3 replicas de pods** <br />
+### Application de Toleration sur 3 replicas de pods <br />
 _kubectl apply -f toleration.yaml_ <br />
 ![alt toleration](https://aliyoub.github.io/kubernetes/images/taints-tolerations_3.png)
 ![alt toleration](https://aliyoub.github.io/kubernetes/images/taints-tolerations_5b.png)
 
 
-**_Retrait de Taint du noeud minikube_** <br />
-kubectl taint nodes minikube key=value:NoSchedule-
+### Retrait de Taint du noeud minikube <br />
+_kubectl taint nodes minikube key=value:NoSchedule-_
 ![alt toleration](https://aliyoub.github.io/kubernetes/images/taints-tolerations_5.png)
