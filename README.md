@@ -10,7 +10,7 @@ _kubectl taint nodes minikube key=value:NoSchedule_  <br />
 ![alt taint](https://aliyoub.github.io/kubernetes/images/taints-tolerations_1.png)
 
 **Ensuite, planifions un pod et voyons s’il a été mis en place dans le noeud minikube** <br />
-_> kubectl run aliyou-test-taint-pod --image=nginx_  <br />
+> _kubectl run aliyou-test-taint-pod --image=nginx_  <br />
 ![alt taint](https://aliyoub.github.io/kubernetes/images/taints-tolerations_2.png)
 
 
